@@ -13,5 +13,7 @@ udemy 웹개발 강의 흡수
      * HR : 수평선 / BR : 개행 / Sup, Sub : 윗 첨자, 아랫 첨자
    * Entity Codes : https://dev.w3.org/html5/html-author/charref
      * 브라우저에서 렌더링 하는 특수문자 코드
+   * Playing With Semantic Elements
+     * 내포된 의미를 가지고 있는 DIV들 ; header, footer, airticle, section, ...
 
 ## **CSS**

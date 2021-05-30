@@ -1,4 +1,5 @@
 # The-Web-Developer-Bootcamp-2021
+https://www.udemy.com/course/the-web-developer-bootcamp/  
 udemy 웹개발 강의 흡수  
 
 
@@ -8,5 +9,9 @@ udemy 웹개발 강의 흡수
    * Block vs. Inline Elements - DIvs and Spans
      * div : 블럭
      * span : 인라인
+   * An Odd Assortment of Elements: HR,BR, Sup, & Sub
+     * HR : 수평선 / BR : 개행 / Sup, Sub : 윗 첨자, 아랫 첨자
+   * Entity Codes : https://dev.w3.org/html5/html-author/charref
+     * 브라우저에서 렌더링 하는 특수문자 코드
 
 ## **CSS**

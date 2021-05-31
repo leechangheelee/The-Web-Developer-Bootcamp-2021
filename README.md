@@ -15,5 +15,7 @@ udemy 웹개발 강의 흡수
      * 브라우저에서 렌더링 하는 특수문자 코드
    * Playing With Semantic Elements
      * 내포된 의미를 가지고 있는 DIV들 ; header, footer, airticle, section, ...
+   * VSCode Tip: Emmet : https://docs.emmet.io/abbreviations/syntax/
+     * HTML 코드 간단 자동완성
 
 ## **CSS**

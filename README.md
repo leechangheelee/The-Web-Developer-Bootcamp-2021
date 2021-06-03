@@ -21,5 +21,9 @@ udemy 웹개발 강의 흡수
      * TR / TD / TH : 행 / 셀 / 제목행
      * Thead, Tbody, Tfoot : 테이블 내 head, body, foot 영역 표시 semantic
      * Colspan, Rowspan : 열 병합, 행 병합
+   * form : "represents a document section containing interactive controls for submitting information"
+     * A shell or container that doesn't have any visual impact.
+     * Contains a collection of inputs, checkboxes, buttons, etc.
+   * Common Input Types : Type에 따라 Input 의 형태가 다름. text, password, color, ...
 
 ## **CSS**

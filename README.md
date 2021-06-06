@@ -21,5 +21,11 @@ udemy 웹개발 강의 흡수
      * TR / TD / TH : 행 / 셀 / 제목행
      * Thead, Tbody, Tfoot : 테이블 내 head, body, foot 영역 표시 semantic
      * Colspan, Rowspan : 열 병합, 행 병합
+   * form : "represents a document section containing interactive controls for submitting information"
+     * A shell or container that doesn't have any visual impact.
+     * Contains a collection of inputs, checkboxes, buttons, etc.
+   * Common Input Types : Type에 따라 Input 의 형태가 다름. text, password, color, ...
+   * The All-Important Label : 요소에 label 을 붙임. 클릭시 label이 가리키는 요소를 클릭한 효과를 가짐
+   * HTML Buttons : form 태그 내부에서 type 미지정시 submit 타입을 디폴트로 가짐. input 태그의 submit 타입도 동일하게 동작
 
 ## **CSS**

@@ -25,5 +25,6 @@ udemy 웹개발 강의 흡수
      * A shell or container that doesn't have any visual impact.
      * Contains a collection of inputs, checkboxes, buttons, etc.
    * Common Input Types : Type에 따라 Input 의 형태가 다름. text, password, color, ...
+   * The All-Important Label : 요소에 label 을 붙임. 클릭시 label이 가리키는 요소를 클릭한 효과를 가짐
 
 ## **CSS**

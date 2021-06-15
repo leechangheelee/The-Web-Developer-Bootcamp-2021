@@ -28,7 +28,7 @@
         </p>
         <p>
             <label for="number">Enter a Number:</label>
-            <input type="number" placeholder="enter a number" id="number" name="num">
+            <input type="number" placeholder="enter a number" id="number" name="num" min="1" max="1000">
         </p>
 
         <!-- this button doesn't submit the form b/c of the "type" attribute -->
@@ -57,6 +57,40 @@
         <input type="text" name="search_query">
         <button>Search Youtube</button>
     </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg" selected>Vegitarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese:</label>
+            <input type="range" and id="cheese" min="1" and max="100" value="75" name="cheese_level">
+        </p>
+
+        <p>
+            <label for="requests">Any Special Requests?</label><br>
+            <textarea name="requests" id="requests" cols="40" rows="10" placeholder="Type something here"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
 </body>
 
 </html>

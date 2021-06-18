@@ -91,6 +91,23 @@
         <button>Submit</button>
     </form>
 
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username2">Username</label>
+            <input type="text" id="username2" name="username2" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <!-- <input type="email" required> -->
+            <input type="url">
+        </p>
+
+        <button>Submit</button>
+    </form>
+
 </body>
 
 </html>

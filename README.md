@@ -36,5 +36,6 @@ udemy 웹개발 강의 흡수
    * Range & Text Area
      * Range : 숫자 범위내에서 값 선택. min, max, step 값 지정가능
      * Text Area : 텍스트 입력 영역. cols, rows로 영역 사이즈 세팅가능. placeholder 사용가능
+   * HTML5 Form Validations : https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Constraint_validation 참조
 
 ## **CSS**

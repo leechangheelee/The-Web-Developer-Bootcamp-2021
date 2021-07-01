@@ -45,3 +45,4 @@ udemy 웹개발 강의 흡수
      * RGB : rgb(0 ~ 255, 0 ~ 255, 0 ~ 255) 형태로 색 표현
      * Named Colors : red, green, blue, pink, ...
      * 참고) https://htmlcolorcodes.com/color-names/, https://htmlcolorcodes.com/color-picker/
+   * Colors Systems: Hexadecimal : 16진수 6자리로 색 표현. 예) #2DBFBC

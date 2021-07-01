@@ -41,3 +41,7 @@ udemy 웹개발 강의 흡수
 ## **CSS**
    * MDN CSS Property Reference : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
    * Including Styles Correctly : HTML 내에서 link 태그로 css 파일 include
+   * Colors Systems: RGB & Named Colors
+     * RGB : rgb(0~255, 0~255, 0~255) 형태로 색 표현
+     * Named Colors : red, green, blue, pink, ...
+     * 참고) https://htmlcolorcodes.com/color-names/, https://htmlcolorcodes.com/color-picker/

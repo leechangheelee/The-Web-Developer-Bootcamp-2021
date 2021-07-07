@@ -52,3 +52,4 @@ udemy 웹개발 강의 흡수
      * font-weight
      * letter-spacing
      * line-height
+   * Font Size Basics With Pixels

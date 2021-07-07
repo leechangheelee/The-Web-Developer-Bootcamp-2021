@@ -3,6 +3,9 @@ h1 {
     font-weight: normal;
     text-decoration: #f78120 underline wavy;
     letter-spacing: 15px;
+    font-size: 80px;
+    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+    font-family: monospace;
 }
 
 a {

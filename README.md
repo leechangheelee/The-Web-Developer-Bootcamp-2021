@@ -55,3 +55,4 @@ udemy 웹개발 강의 흡수
    * Font Size Basics With Pixels
    * The Font Family Property
      * 참고) https://www.cssfontstack.com/
+   * Universal & Element Selectors : 예) *, button, "h1,h2", ...

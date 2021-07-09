@@ -58,3 +58,4 @@ udemy 웹개발 강의 흡수
    * Universal & Element Selectors : 예) *, button, "h1,h2", ...
    * The ID Selector : Selector 를 ID로 지정. 예) #id
      * 참고) (색상 팔레트) https://coolors.co/palettes/trending
+   * The Class Selector : Selector 를 CLASS로 지정. 예) .class

@@ -59,3 +59,4 @@ udemy 웹개발 강의 흡수
    * The ID Selector : Selector 를 ID로 지정. 예) #id
      * 참고) (색상 팔레트) https://coolors.co/palettes/trending
    * The Class Selector : Selector 를 CLASS로 지정. 예) .class
+   * The Descendent Selector : " " 로 특정 엘리먼트의 하위항목 지정. 예) "footer a", ".post a"

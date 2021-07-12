@@ -60,3 +60,8 @@ udemy 웹개발 강의 흡수
      * 참고) (색상 팔레트) https://coolors.co/palettes/trending
    * The Class Selector : Selector 를 CLASS로 지정. 예) .class
    * The Descendent Selector : " " 로 특정 엘리먼트의 하위항목 지정. 예) "footer a", ".post a"
+   * The Adjacent & Direct-Descendent Selectors
+     * Adjacent Selectors : 동등한 레벨의 엘리먼트들을 묶어서 지정. 예) h2 + button
+     * Direct-Descendent Selectors : 특정 엘리먼트의 한 단계 아래 엘리먼트 지정. 예) footer > a
+   * The Attribute Selector : 속성값을 통해 엘리먼트 지정. 예) input[type="password"]
+   * Pseudo Classes : keyword added to a selector that specifies a special state of the selected element(s). 예) a:hover

@@ -63,3 +63,4 @@ udemy 웹개발 강의 흡수
    * The Adjacent & Direct-Descendent Selectors
      * Adjacent Selectors : 동등한 레벨의 엘리먼트들을 묶어서 지정. 예) h2 + button
      * Direct-Descendent Selectors : 특정 엘리먼트의 한 단계 아래 엘리먼트 지정. 예) footer > a
+   * The Attribute Selector : 속성값을 통해 엘리먼트 지정. 예) input[type="password"]

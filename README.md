@@ -67,3 +67,5 @@ udemy 웹개발 강의 흡수
    * Pseudo Classes : keyword added to a selector that specifies a special state of the selected element(s). 예) a:hover
    * Pseudo Elements : Keyworkd added to a selector that lets you style a particular part of selected element(s). 예) p::fitst-line
    * The CSS Cascade : 동일한 엘리먼트에 동일한 속성에 대한 값을 서로 다른 두 곳에서 정의하는 경우, 가장 마지막에 설정된 값이 적용됨.
+   * Specificity : How the browser decides which rules to apply when multiple rules could apply to the same element.
+     * 참고) https://specificity.keegan.st/ (Specificty 계산기)

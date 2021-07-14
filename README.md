@@ -66,4 +66,4 @@ udemy 웹개발 강의 흡수
    * The Attribute Selector : 속성값을 통해 엘리먼트 지정. 예) input[type="password"]
    * Pseudo Classes : keyword added to a selector that specifies a special state of the selected element(s). 예) a:hover
    * Pseudo Elements : Keyworkd added to a selector that lets you style a particular part of selected element(s). 예) p::fitst-line
-   * The CSS Cascade : 동일한 엘리먼트에 동일한 속성에 대한 값을 서로 다른 두 곳에서 정의하는 경우, 가장 마지막에 설정된 
+   * The CSS Cascade : 동일한 엘리먼트에 동일한 속성에 대한 값을 서로 다른 두 곳에서 정의하는 경우, 가장 마지막에 설정된 값이 적용됨.

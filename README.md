@@ -65,3 +65,4 @@ udemy 웹개발 강의 흡수
      * Direct-Descendent Selectors : 특정 엘리먼트의 한 단계 아래 엘리먼트 지정. 예) footer > a
    * The Attribute Selector : 속성값을 통해 엘리먼트 지정. 예) input[type="password"]
    * Pseudo Classes : keyword added to a selector that specifies a special state of the selected element(s). 예) a:hover
+   * Pseudo Elements : Keyworkd added to a selector that lets you style a particular part of selected element(s). 예) p::fitst-line

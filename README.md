@@ -69,3 +69,8 @@ udemy 웹개발 강의 흡수
    * The CSS Cascade : 동일한 엘리먼트에 동일한 속성에 대한 값을 서로 다른 두 곳에서 정의하는 경우, 가장 마지막에 설정된 값이 적용됨.
    * Specificity : How the browser decides which rules to apply when multiple rules could apply to the same element.
      * 참고) https://specificity.keegan.st/ (Specificty 계산기)
+   * Inline Styles & Important : 미사용 권고
+     * Inline Styles : html 태그 안에 style 삽입. 예) < button id="signup" style="color:coral" >
+     * Important : specificty를 강제로 최고로 만듦. 예) background-color: magenta !important;
+   * CSS Inheritance : 상위항목에 설정된 값이 하위항목에도 적용됨. 예) body 항목에 적용한 color 가 아래 h1 에도 적용됨.
+     * 일부는 상속값 사용을 명시해야 함. 예) color: inherit;

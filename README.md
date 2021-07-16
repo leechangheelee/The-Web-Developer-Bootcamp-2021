@@ -72,3 +72,5 @@ udemy 웹개발 강의 흡수
    * Inline Styles & Important : 미사용 권고
      * Inline Styles : html 태그 안에 style 삽입. 예) < button id="signup" style="color:coral" >
      * Important : specificty를 강제로 최고로 만듦. 예) background-color: magenta !important;
+   * CSS Inheritance : 상위항목에 설정된 값이 하위항목에도 적용됨. 예) body 항목에 적용한 color 가 아래 h1 에도 적용됨.
+     * 일부는 상속값 사용을 명시해야 함. 예) color: inherit;

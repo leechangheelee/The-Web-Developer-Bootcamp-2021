@@ -77,4 +77,4 @@ udemy 웹개발 강의 흡수
    * Box Model: Width & Height
      * 엘리먼트는 하나의 박스 형태로 다뤄지고 width와 height는 content 영역의 폭과 높이를 설정. 예) width: 200px;
    * Box Model: Border & Border-Radius
-     * content를 감싸고 있는 영역의 경계선의 색상, 선 스타일, 굵기, 모서리의 둥글기를 설정. 예) border: 4px solid black; border-radius: 50%;
+     * content를 감싸고 있는 영역(:경계선)의 색상, 선 스타일, 굵기, 모서리의 둥글기를 설정. 예) border: 4px solid black; border-radius: 50%;

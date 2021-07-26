@@ -80,3 +80,5 @@ udemy 웹개발 강의 흡수
      * content를 감싸고 있는 영역(:경계선)의 색상, 선 스타일, 굵기, 모서리의 둥글기를 설정. 예) border: 4px solid black; border-radius: 50%;
    * Box Model: Padding
      * border와 content영역 사이의 영역. 예) padding: 10px 20px 30px 40px;
+   * Box Model: Margin
+     * border를 포함한 content들 사이의 영역. 예) margin-left: 30px;

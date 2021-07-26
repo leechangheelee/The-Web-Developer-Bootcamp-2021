@@ -82,3 +82,7 @@ udemy 웹개발 강의 흡수
      * border와 content영역 사이의 영역. 예) padding: 10px 20px 30px 40px;
    * Box Model: Margin
      * border를 포함한 content들 사이의 영역. 예) margin-left: 30px;
+   * The Display Property
+     * INLINE : Width & Height are ignored. Margin & padding push elements away horizontally but not vertically.
+     * BLOCK : Block elements break the flow of a document. Width, Height, Margin, & Padding are respected.
+     * INLINE-BLOCK : Behaved like an inline element except Width, Height, Margin, & Padding are respected.

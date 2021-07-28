@@ -86,3 +86,8 @@ udemy 웹개발 강의 흡수
      * INLINE : Width & Height are ignored. Margin & padding push elements away horizontally but not vertically.
      * BLOCK : Block elements break the flow of a document. Width, Height, Margin, & Padding are respected.
      * INLINE-BLOCK : Behaved like an inline element except Width, Height, Margin, & Padding are respected.
+   * CSS Units Revisited
+     * Absolute Units
+       * PX - BY FAR THE MOST COMMONLY USED ABSOLUTE UNIT
+     * Relative Units
+       * PERCENTAGES ARE ALWAYS RELATIVE TO SOME OTHER VALUE

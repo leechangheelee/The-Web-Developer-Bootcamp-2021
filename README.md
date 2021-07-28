@@ -94,3 +94,6 @@ udemy 웹개발 강의 흡수
        * EM'S ARE RELATIVE UNITS
          * With font-size, 1 em equals the font-size of the parent. 2em's is twice the font-size of the parent, etc.
          * With other properties, 1em is equal to the computed font-size of the element itself.
+       * rem (ROOT EMS)
+         * Relative to the root html element's font-size. Often easier to work with.
+         * If the root font-size is 20px, 1 rem is always 20px, 2rem is always 40px, etc.

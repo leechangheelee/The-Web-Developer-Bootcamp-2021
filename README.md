@@ -91,3 +91,6 @@ udemy 웹개발 강의 흡수
        * PX - BY FAR THE MOST COMMONLY USED ABSOLUTE UNIT
      * Relative Units
        * PERCENTAGES ARE ALWAYS RELATIVE TO SOME OTHER VALUE
+       * EM'S ARE RELATIVE UNITS
+         * With font-size, 1 em equals the font-size of the parent. 2em's is twice the font-size of the parent, etc.
+         * With other properties, 1em is equal to the computed font-size of the element itself.

@@ -97,3 +97,6 @@ udemy 웹개발 강의 흡수
        * rem (ROOT EMS)
          * Relative to the root html element's font-size. Often easier to work with.
          * If the root font-size is 20px, 1 rem is always 20px, 2rem is always 40px, etc.
+   * Opacity & The Alpha Channel
+     * Opacity : 엘리먼트들 전체에 적용되는 투명도 (0 ~ 1). 예) opacity: 0.3;
+     * Alpha Channel : rgb에 투명도 (0 ~ 1) 가 추가된 것. 지정한 엘리먼트에만 먹힘. 예) background-color: rgba(255,255,255,0.7); → background-color 에만 먹힘.

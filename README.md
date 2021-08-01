@@ -100,3 +100,9 @@ udemy 웹개발 강의 흡수
    * Opacity & The Alpha Channel
      * Opacity : 엘리먼트들 전체에 적용되는 투명도 (0 ~ 1). 예) opacity: 0.3;
      * Alpha Channel : rgb에 투명도 (0 ~ 1) 가 추가된 것. 지정한 엘리먼트에만 먹힘. 예) background-color: rgba(255,255,255,0.7); → background-color 에만 먹힘.
+   * The Position Property : sets how an element is positioned in a document. 참조) https://developer.mozilla.org/en-US/docs/Web/CSS/position
+     * static : The element is positioned according to the normal flow of the document.
+     * relative : The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
+     * absolute : The element is removed form the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.
+     * fixed : The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a transform, perspective, or filter property set to something other than none, in which case that ancestor behaves as the containing block.
+     * sticky : The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements. → 스크롤 내리면 따라붙음

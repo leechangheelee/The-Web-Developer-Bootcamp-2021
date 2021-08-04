@@ -109,3 +109,5 @@ udemy 웹개발 강의 흡수
    * CSS Transitions : Transitions enable you to define the transition between two states of an element. Different states may be defined using pseudo-class like :hover or :active or dynamically set using JavaScript.
      * Transition : PROPERTY NAME | DURATION | TIMING FUNCTION | DELAY
      * 예) transition: background-color 1s ease-in, border-radius 2s; transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+   * The Power of CSS Transforms : The transform CSS property lets you rotate, scale, skew, or translate an element.
+     * 예) transform: translateX(-500px) rotate(0.5turn) scaleY(1.5);

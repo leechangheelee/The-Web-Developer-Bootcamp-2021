@@ -111,3 +111,5 @@ udemy 웹개발 강의 흡수
      * 예) transition: background-color 1s ease-in, border-radius 2s; transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
    * The Power of CSS Transforms : The transform CSS property lets you rotate, scale, skew, or translate an element.
      * 예) transform: translateX(-500px) rotate(0.5turn) scaleY(1.5);
+   * The truth About Background : The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
+     * 예) background : center/cover no-repeat url("https://images.unsplash.com/photo-1628362152245-57e1eb389bd6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");

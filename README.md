@@ -113,3 +113,4 @@ udemy 웹개발 강의 흡수
      * 예) transform: translateX(-500px) rotate(0.5turn) scaleY(1.5);
    * The truth About Background : The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
      * 예) background : center/cover no-repeat url("https://images.unsplash.com/photo-1628362152245-57e1eb389bd6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+   * Google Fonts is Amazing : https://fonts.google.com/

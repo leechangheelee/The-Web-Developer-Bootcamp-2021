@@ -118,3 +118,5 @@ udemy 웹개발 강의 흡수
      * Flexbox is a one-dimensional layout method for laying out items in rows or columns
      * Flexbox is a recent addition to CSS, included to address common layout frustations
      * Flexbox allows us to distribute space dynamically across elements of an unknown size, hence the term "flex"
+   * Flex-Direction : The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction
+     * 예) flex-direction: row; flex-direction: row-reverse; flex-direction: column; flex-direction: column-reverse;

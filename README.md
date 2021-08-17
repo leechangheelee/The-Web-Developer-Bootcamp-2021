@@ -122,3 +122,5 @@ udemy 웹개발 강의 흡수
      * 예) flex-direction: row; flex-direction: row-reverse; flex-direction: column; flex-direction: column-reverse;
    * Justify-Content : The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
      * 예) flex-content: start; flex-content: center; flex-content: space-between; flex-content: space-around; flex-content: space-evenly;
+   * Flex-Wrap : The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
+     * 예) flex-wrap: nowrap; flex-wrap: wrap; flex-wrap: wrap-reverse;

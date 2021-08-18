@@ -124,3 +124,5 @@ udemy 웹개발 강의 흡수
      * 예) flex-content: start; flex-content: center; flex-content: space-between; flex-content: space-around; flex-content: space-evenly;
    * Flex-Wrap : The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
      * 예) flex-wrap: nowrap; flex-wrap: wrap; flex-wrap: wrap-reverse;
+   * Align-Items : The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the CrossAxis.
+     * 예) align-items: flex-start; align-items: center;

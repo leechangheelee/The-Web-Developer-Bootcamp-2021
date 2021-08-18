@@ -11,12 +11,14 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap-reverse;
 }
 
 #container div {
-    width: 600px;
+    width: 200px;
     height: 200px;
+    text-align: center;
 }

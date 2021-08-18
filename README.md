@@ -121,7 +121,7 @@ udemy 웹개발 강의 흡수
    * Flex-Direction : The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction
      * 예) flex-direction: row; flex-direction: row-reverse; flex-direction: column; flex-direction: column-reverse;
    * (MAIN AXIS상 정렬) Justify-Content : The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
-     * 예) flex-content: start; flex-content: center; flex-content: space-between; flex-content: space-around; flex-content: space-evenly;
+     * 예) justify-content: flex-start; justify-content: center; justify-content: space-between; justify-content: space-around; justify-content: space-evenly;
    * Flex-Wrap : The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
      * 예) flex-wrap: nowrap; flex-wrap: wrap; flex-wrap: wrap-reverse;
    * (CROSS AXIS상 정렬) Align-Items : The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the CrossAxis.

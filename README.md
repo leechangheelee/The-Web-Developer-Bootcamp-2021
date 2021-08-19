@@ -126,3 +126,8 @@ udemy 웹개발 강의 흡수
      * 예) flex-wrap: nowrap; flex-wrap: wrap; flex-wrap: wrap-reverse;
    * (CROSS AXIS상 정렬) Align-Items : The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the CrossAxis.
      * 예) align-items: flex-start; align-items: center;
+   * Align-Content & Align-Self
+     * Align-Content : The CSS align-content property sets the distribution of space between and around content items along a flexbox's cross-axis or a grid's block axis.
+       * 예) align-content: start; align-content: center;
+     * Align-Self : The align-self CSS property overrides a grid or flex item's align-items value.
+       * 예) align-self: center; align-self: start; 

@@ -131,3 +131,10 @@ udemy 웹개발 강의 흡수
        * 예) align-content: start; align-content: center;
      * Align-Self : The align-self CSS property overrides a grid or flex item's align-items value.
        * 예) align-self: center; align-self: start; 
+   * Flex-Basis, Grow, & Shrink
+     * FLEX-BASIS : Defines the initial size of an element before additional space is distributed.
+       * 예) flex-basis: 600px;
+     * FLEX-GROW : Controls the amount of available space an element should take up. Accepts a unit-less number value.
+       * 예) flex-grow: 1; (상대적 수치)
+     * FLEX-SHIRINK : If items are larger than the container, they shrink according to flex-shrink.
+       * 예) flex-grow: 3; (상대적 수치)

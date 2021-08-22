@@ -140,3 +140,5 @@ udemy 웹개발 강의 흡수
        * 예) flex-grow: 3; (상대적 수치)
    * Flex Shorthand : The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.
      * 예) /* Three values: flex-grow | flex-shrink | flex-basis */ flex: 1 1 100px;
+   * The Power of Media Queries : Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or vrowser viewport width).
+     * 예) @media (min-width: 500px) {}

@@ -138,3 +138,5 @@ udemy 웹개발 강의 흡수
        * 예) flex-grow: 1; (상대적 수치)
      * FLEX-SHIRINK : If items are larger than the container, they shrink according to flex-shrink.
        * 예) flex-grow: 3; (상대적 수치)
+   * Flex Shorthand : The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.
+     * 예) /* Three values: flex-grow | flex-shrink | flex-basis */ flex: 1 1 100px;

@@ -157,3 +157,10 @@ udemy 웹개발 강의 흡수
        * 예) < h1 class="display-1 text-center text-primary" >Bootstrap Playground< /h1 >
      * Utilities : https://getbootstrap.com/docs/5.1/utilities/
        * 예) (Colors) < p class="text-primary" >.text-primary< /p >
+   * Badges, Alerts, & Button Groups
+     * Badge : https://getbootstrap.com/docs/4.6/components/badge/
+       * 예) < span class="badge badge-light" >9< /span >
+     * Alert : https://getbootstrap.com/docs/4.6/components/alerts/
+       * 예) < div class="alert alert-danger alert-dismissible fade show" role="alert" >< /div >
+     * Button Group : https://getbootstrap.com/docs/4.6/components/button-group/
+       * 예) < div class="btn-group" >< /div >

@@ -152,3 +152,8 @@ udemy 웹개발 강의 흡수
        * 예) < div class="container" > < div class="container-fluid" > 등
    * Bootstrap Buttons : https://getbootstrap.com/docs/5.1/components/buttons/
      * 예) < button type="button" class="btn btn-outline-primary" >Primary< /button >
+   * Bootstrap Typography & Utilities
+     * Typography : https://getbootstrap.com/docs/5.1/content/typography/
+       * 예) < h1 class="display-1 text-center text-primary" >Bootstrap Playground< /h1 >
+     * Utilities : https://getbootstrap.com/docs/5.1/utilities/
+       * 예) (Colors) < p class="text-primary" >.text-primary< /p >

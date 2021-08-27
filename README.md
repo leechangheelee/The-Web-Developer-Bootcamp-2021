@@ -146,5 +146,9 @@ udemy 웹개발 강의 흡수
 ## **CSS Frameworks: Bootstrap**
    * Including Bootstrap & Containers
      * HTML 내에서 link 태그로 Bootstrap CSS CDN URL include (JavaScript 는 body 태그 최하단에서 포함시킴)
+       * 참조) https://getbootstrap.com/docs/5.1/getting-started/introduction/
      * Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+       * 참조) https://getbootstrap.com/docs/5.1/layout/containers/
        * 예) < div class="container" > < div class="container-fluid" > 등
+   * Bootstrap Buttons : https://getbootstrap.com/docs/5.1/components/buttons/
+     * 예) < button type="button" class="btn btn-outline-primary" >Primary< /button >

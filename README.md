@@ -164,3 +164,8 @@ udemy 웹개발 강의 흡수
        * 예) < div class="alert alert-danger alert-dismissible fade show" role="alert" >< /div >
      * Button Group : https://getbootstrap.com/docs/4.6/components/button-group/
        * 예) < div class="btn-group" >< /div >
+   * Intro to the Bootstrap Grid : https://getbootstrap.com/docs/4.6/layout/grid/
+     * Grid System : Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive.
+     * Unit 합은 12 (아래 예시 col-2, col-8, col-2 → 합 12)
+       * 예) < div class="col-2 bg-success" >I AM 2 UNITS< /div > < div class="col-8 bg-danger" >I AM 8 UNITS< /div > < div class="col-2 bg-success" >I AM 2 UNITS< /div >
+       * class="col" 인 경우 해당 div들에 대해 균등분할

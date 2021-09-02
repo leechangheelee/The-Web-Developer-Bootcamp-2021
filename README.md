@@ -169,3 +169,5 @@ udemy 웹개발 강의 흡수
      * Unit 합은 12 (아래 예시 col-2, col-8, col-2 → 합 12)
        * 예) < div class="col-2 bg-success" >I AM 2 UNITS< /div > < div class="col-8 bg-danger" >I AM 8 UNITS< /div > < div class="col-2 bg-success" >I AM 2 UNITS< /div >
        * class="col" 인 경우 해당 div들에 대해 균등분할
+   * Responsive Bootstrap Grids : Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
+     * 예) < div class="col-xl-4 col-md-6" >

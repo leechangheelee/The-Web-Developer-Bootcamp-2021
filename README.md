@@ -171,3 +171,9 @@ udemy 웹개발 강의 흡수
        * class="col" 인 경우 해당 div들에 대해 균등분할
    * Responsive Bootstrap Grids : Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
      * 예) < div class="col-xl-4 col-md-6" >
+   * Useful Grid Utilities
+     * Grid Alignment : Vertical alignment
+       * 예) < div class="row align-items-center" >
+     * Justify Content : Horizontal alignment
+       * 마찬가지로 화면 사이즈에 따라 정렬을 바꿀 수 있음
+       * 예) < div class="row border justify-content-center justify-content-lg-start justify-content-xl-between" >

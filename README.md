@@ -177,3 +177,6 @@ udemy 웹개발 강의 흡수
      * Justify Content : Horizontal alignment
        * 마찬가지로 화면 사이즈에 따라 정렬을 바꿀 수 있음
        * 예) < div class="row border justify-content-center justify-content-lg-start justify-content-xl-between" >
+   * Bootstrap & Forms
+     * Bootstrap 에서 제공하는 다양한 form들을 사용할 수 있음
+     * 예) < div class="form-row" > < div class="form-group col-md-6" > < input type="text" class="form-control" id="city" >

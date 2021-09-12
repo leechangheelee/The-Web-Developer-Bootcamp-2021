@@ -180,3 +180,6 @@ udemy 웹개발 강의 흡수
    * Bootstrap & Forms
      * Bootstrap 에서 제공하는 다양한 form들을 사용할 수 있음
      * 예) < div class="form-row" > < div class="form-group col-md-6" > < input type="text" class="form-control" id="city" >
+   * Bootstrap Navbars : https://getbootstrap.com/docs/4.6/components/navbar/
+     * Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar.
+     * 예) < nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top" >

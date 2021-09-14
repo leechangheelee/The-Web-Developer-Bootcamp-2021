@@ -183,3 +183,5 @@ udemy 웹개발 강의 흡수
    * Bootstrap Navbars : https://getbootstrap.com/docs/4.6/components/navbar/
      * Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar.
      * 예) < nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top" >
+   * Bootstrap Icons : https://icons.getbootstrap.com/
+     * 예) < svg ~ > ~ < /svg >

@@ -185,3 +185,10 @@ udemy 웹개발 강의 흡수
      * 예) < nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top" >
    * Bootstrap Icons : https://icons.getbootstrap.com/
      * 예) < svg ~ > ~ < /svg >
+   * Other Bootstrap Utilities : https://getbootstrap.com/docs/4.6/utilities/
+     * Border
+       * 예) < div class="col-md-4 border rounded border-success shadow" >
+     * Padding
+       * 예) < button class="btn btn-primary p-1" >
+     * Margin
+       * 예) < h1 class="display-1 mb-5" >

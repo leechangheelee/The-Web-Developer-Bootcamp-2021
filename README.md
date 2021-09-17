@@ -200,3 +200,9 @@ udemy 웹개발 강의 흡수
      * Boolean
      * Null
      * Undefined
+   * JavaScript Numbers
+     * JS has one numbrer type
+     * Positive numbers
+     * Negative numbers
+     * Whole numbers (integers)
+     * Decimal numbers

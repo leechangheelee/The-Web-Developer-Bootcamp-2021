@@ -192,3 +192,11 @@ udemy 웹개발 강의 흡수
        * 예) < button class="btn btn-primary p-1" >
      * Margin
        * 예) < h1 class="display-1 mb-5" >
+
+## **JavaScript**
+   * Primitives
+     * Number
+     * String
+     * Boolean
+     * Null
+     * Undefined

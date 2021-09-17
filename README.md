@@ -206,3 +206,14 @@ udemy 웹개발 강의 흡수
      * Negative numbers
      * Whole numbers (integers)
      * Decimal numbers
+   * WTF is NaN
+     * NaN is a numeric value that represents something that is not a number
+   * Variables & Let
+     * Variables : Variables are like labels for values.
+       * We can store a value and give it a name so that we can:
+       * Refer back to it later
+       * Use that value to do...stuff
+       * Or change it later one
+     * Let : 변수 선언
+       * BASIC SYNTAX
+         *  let someName = value;

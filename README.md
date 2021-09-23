@@ -217,3 +217,5 @@ udemy 웹개발 강의 흡수
      * Let : 변수 선언
        * BASIC SYNTAX
          *  let someName = value;
+   * Updating Variables
+     * ++, --, +=, *=, /= 등등 사용가능

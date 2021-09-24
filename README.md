@@ -221,3 +221,5 @@ udemy 웹개발 강의 흡수
      * ++, --, +=, *=, /= 등등 사용가능
    * Const & Var
      * Const 는 값이 변하지 않는 상수, Var 은 과거에 사용하던 변수 선언 키워드
+   * Booleans : true / false 값을 가짐
+     * Variables Can Change Types : It doesn't really make sense to change from a number to a boolean here, but we can.

@@ -223,3 +223,5 @@ udemy 웹개발 강의 흡수
      * Const 는 값이 변하지 않는 상수, Var 은 과거에 사용하던 변수 선언 키워드
    * Booleans : true / false 값을 가짐
      * Variables Can Change Types : It doesn't really make sense to change from a number to a boolean here, but we can.
+   * Variable Naming and Conventions
+     * 주로 카멜케이스로 네이밍하고, identifier를 변수명 시작에 사용 불가 (MDN 참조)

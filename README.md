@@ -225,3 +225,6 @@ udemy 웹개발 강의 흡수
      * Variables Can Change Types : It doesn't really make sense to change from a number to a boolean here, but we can.
    * Variable Naming and Conventions
      * 주로 카멜케이스로 네이밍하고, identifier를 변수명 시작에 사용 불가 (MDN 참조)
+   * Introducing Strings : "STRINGS OF CHARACTERS"
+     * Strings are another primitive type in JavaScript. They represent text, and must be wrapped in quotes.
+     * It's fine to use either single or double quotes, just be consistent in your codebase.

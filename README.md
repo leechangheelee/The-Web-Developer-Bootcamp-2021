@@ -229,7 +229,7 @@ udemy 웹개발 강의 흡수
      * Strings are another primitive type in JavaScript. They represent text, and must be wrapped in quotes.
      * It's fine to use either single or double quotes, just be consistent in your codebase.
    * Indices & Length
-     * 문자열의 문자를 인덱스로 접근 가능
+     * 문자열의 문자를 인덱스로 접근 가능 (0 ~ length-1)
        * 예) "lol"[2]
      * 문자열의 길이 확인가능
        * 예) "lol".length

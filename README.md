@@ -233,3 +233,5 @@ udemy 웹개발 강의 흡수
        * 예) "lol"[2]
      * 문자열의 길이 확인가능
        * 예) "lol".length
+   * String Methods : Methods are built-in actions we can perform with individual strings.
+     * 예) "lol".toUpperCase()

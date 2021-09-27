@@ -236,3 +236,10 @@ udemy 웹개발 강의 흡수
    * String Methods : Methods are built-in actions we can perform with individual strings.
      * 예) "lol".toUpperCase()
      * 참고) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+   * String Methods With Arguments
+     * indexOf : 파라미터로 받은 문자열의 인덱스 반환
+       * 예) tvShow.indexOf('cat');
+     * slice : 문자열을 특정 위치부터 특정위치까지 자름
+       * 예) str.slice(0, 5); str.slice(5);
+     * replace : 특정 문자열을 지정한 문자열로 대체
+       * 예) annoyingLaugh.replace('teehee', 'haha');

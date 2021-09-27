@@ -235,3 +235,4 @@ udemy 웹개발 강의 흡수
        * 예) "lol".length
    * String Methods : Methods are built-in actions we can perform with individual strings.
      * 예) "lol".toUpperCase()
+     * 참고) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String

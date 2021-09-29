@@ -243,3 +243,9 @@ udemy 웹개발 강의 흡수
        * 예) str.slice(0, 5); str.slice(5);
      * replace : 특정 문자열을 지정한 문자열로 대체
        * 예) annoyingLaugh.replace('teehee', 'haha');
+   * String Template Literals -SUPER USEFUL
+     * Template Literals are strings that allow embedded expressions, which will be evaluated and then turned into a resulting string.
+     * WE USE BACK-TICKS NOT SINGLE QUOTES ( ` )
+       * \`I am a template literal\`
+       * The back-tick key is usually above the tab key 
+     * 예) \`I counted ${3 + 4} sheep\`; // "I counted 7 sheep"

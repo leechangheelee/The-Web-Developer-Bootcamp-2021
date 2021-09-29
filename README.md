@@ -255,3 +255,9 @@ udemy 웹개발 강의 흡수
        * Must be assigned
      * Undefined
        * Variables that do not have an assigned value are undefined
+   * Random Numbers & The Math Object (MDN 참조)
+     * MATH OBJECT Contains properties and methods for mathematical constants and functions.
+       * 예) Math.PI // 3.14~, Math.abs(-456) // 456
+     * RANDOM NUMBERS
+       * Math.random() gives us a random decimal between 0 and 1 (non-inclusive)
+       * 예) Math.random();

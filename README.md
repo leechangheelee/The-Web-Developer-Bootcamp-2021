@@ -249,3 +249,9 @@ udemy 웹개발 강의 흡수
        * \`I am a template literal\`
        * The back-tick key is usually above the tab key 
      * 예) \`I counted ${3 + 4} sheep\`; // "I counted 7 sheep"
+   * NULL & UNDEFINED
+     * Null
+       * "Intentional absense of any value"
+       * Must be assigned
+     * Undefined
+       * Variables that do not have an assigned value are undefined

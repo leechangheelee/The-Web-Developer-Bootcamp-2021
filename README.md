@@ -261,3 +261,12 @@ udemy 웹개발 강의 흡수
      * RANDOM NUMBERS
        * Math.random() gives us a random decimal between 0 and 1 (non-inclusive)
        * 예) Math.random();
+   * Comparison Operators
+     * \> // greater than
+     * \< // less than
+     * \>= // greater than or equal to
+     * \<= // less than or equal to
+     * == // equality
+     * != // not equal
+     * === // strict equality
+     * !== // strict non-equality

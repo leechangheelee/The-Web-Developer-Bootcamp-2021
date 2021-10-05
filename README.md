@@ -270,3 +270,10 @@ udemy 웹개발 강의 흡수
      * != // not equal
      * === // strict equality
      * !== // strict non-equality
+   * Equality: Triple Vs. Double Equals
+     * == (double equals)
+       * Checks for equality of value, but not equality of type.
+       * It coerces both values to the same type and then compares them.
+       * This can lead to some unexpected results!
+     * === (triple equals)
+       * Checks for equality of value and type.

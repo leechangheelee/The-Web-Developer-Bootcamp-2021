@@ -277,3 +277,10 @@ udemy 웹개발 강의 흡수
        * This can lead to some unexpected results!
      * === (triple equals)
        * Checks for equality of value and type.
+   * Console, Alert, & Prompt
+     * console.log()
+       * prints arguments to the console (we need this if we're going to start working with files)
+     * Alert : 브라우저 얼럿
+       * 예) alert("Hello");
+     * Prompt : 얼럿창에서 값 입력 가능
+       * 예) prompt("Input value");

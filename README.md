@@ -284,3 +284,13 @@ udemy 웹개발 강의 흡수
        * 예) alert("Hello");
      * Prompt : 얼럿창에서 값 입력 가능
        * 예) prompt("Input value");
+   * Truth-y & False-y Values
+     * ALL JS valuees have an inherent truthyness or falsyness about them
+     * Falsy values:
+       * false
+       * 0
+       * "" (empty string)
+       * null
+       * undefined
+       * NaN
+     * Everything else is truthy!

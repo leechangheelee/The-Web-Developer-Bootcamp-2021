@@ -294,3 +294,4 @@ udemy 웹개발 강의 흡수
        * undefined
        * NaN
      * Everything else is truthy!
+   * Logical AND : && 구문 사용

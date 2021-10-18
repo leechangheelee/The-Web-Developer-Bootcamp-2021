@@ -296,3 +296,4 @@ udemy 웹개발 강의 흡수
      * Everything else is truthy!
    * Logical AND : && 구문 사용
    * Logical OR : || 구문 사용
+   * Logical NOT : ! 구문 사용

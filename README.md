@@ -297,3 +297,5 @@ udemy 웹개발 강의 흡수
    * Logical AND : && 구문 사용
    * Logical OR : || 구문 사용
    * Logical NOT : ! 구문 사용
+   * The Switch Statement Is...A Lot
+     * 참조) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch

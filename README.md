@@ -317,3 +317,7 @@ udemy 웹개발 강의 흡수
        * Pop - remove from end
        * Shift - remove from start
        * Unshift - add to start
+       * Concat - merge arrays
+       * indexOf - just like string.indexOf
+       * includes - look for a value
+       * reverse - reverse an array

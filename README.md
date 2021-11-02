@@ -311,3 +311,6 @@ udemy 웹개발 강의 흡수
        * let stuff = [true, 68, 'cat', null]; // A mixed array
      * ARRAYS ARE INDEXED
        * Each element has a corresponding index (counting starts at 0)
+     * ARRAY METHODS
+       * Push - add to end
+       * Pop - remove from end

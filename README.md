@@ -309,3 +309,5 @@ udemy 웹개발 강의 흡수
        * let colors = ['red', 'orange', 'yellow']; // An array of strings
        * let lottoNums = [19,22,56,12,51]; // An array of numbers
        * let stuff = [true, 68, 'cat', null]; // A mixed array
+     * ARRAYS ARE INDEXED
+       * Each element has a corresponding index (counting starts at 0)

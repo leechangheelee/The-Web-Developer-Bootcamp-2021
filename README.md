@@ -299,3 +299,13 @@ udemy 웹개발 강의 흡수
    * Logical NOT : ! 구문 사용
    * The Switch Statement Is...A Lot
      * 참조) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+   * JavaScript Arrays
+     * ARRAYS : Ordered collections of values.
+       * List of comments on IG post
+       * Collection of levels in a game
+       * Songs in a playlist
+     * Creating Arrays
+       * let students = []; // To make an empty array
+       * let colors = ['red', 'orange', 'yellow']; // An array of strings
+       * let lottoNums = [19,22,56,12,51]; // An array of numbers
+       * let stuff = [true, 68, 'cat', null]; // A mixed array

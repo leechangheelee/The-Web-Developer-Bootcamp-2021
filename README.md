@@ -313,11 +313,14 @@ udemy 웹개발 강의 흡수
      * ARRAYS ARE INDEXED
        * Each element has a corresponding index (counting starts at 0)
      * ARRAY METHODS
-       * Push - add to end
-       * Pop - remove from end
-       * Shift - remove from start
-       * Unshift - add to start
-       * Concat - merge arrays
+       * push - add to end
+       * pop - remove from end
+       * shift - remove from start
+       * unshift - add to start
+       * concat - merge arrays
        * indexOf - just like string.indexOf
        * includes - look for a value
        * reverse - reverse an array
+       * slice - copies a portion on array
+       * splice - removes/replaces elements
+       * sort - sorts an array

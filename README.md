@@ -334,3 +334,5 @@ udemy 웹개발 강의 흡수
      * Arrays + Const
        * The values can change as long as the reference remains the same.
        * 하지만 새 배열을 할당할 때는 에러 발생
+     * Multi-Dimensional Arrays
+       * We can store arrays inside other arrays!

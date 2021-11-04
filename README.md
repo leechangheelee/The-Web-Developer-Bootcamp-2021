@@ -331,3 +331,6 @@ udemy 웹개발 강의 흡수
          * nums = [1, 2, 3]; numsCopy = nums;
            * nums === numsCopy // true
            * nums == numsCopy // true
+     * Arrays + Const
+       * The values can change as long as the reference remains the same.
+       * 하지만 새 배열을 할당할 때는 에러 발생

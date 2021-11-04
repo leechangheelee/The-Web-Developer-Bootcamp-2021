@@ -324,3 +324,10 @@ udemy 웹개발 강의 흡수
        * slice - copies a portion on array
        * splice - removes/replaces elements
        * sort - sorts an array
+     * Reference Types & Equality Testing
+       * 예)
+         * [1, 2, 3] === [1, 2, 3] // false
+         * [1, 2, 3] == [1, 2, 3] // false
+         * nums = [1, 2, 3]; numsCopy = nums;
+           * nums === numsCopy // true
+           * nums == numsCopy // true

@@ -341,3 +341,11 @@ udemy 웹개발 강의 흡수
        * Objects are collections of properties.
        * Properties are a key-value pair
        * Rather than accessing data using an index, we use custom keys.
+     * Accessing Data Out Of Objects
+       * 예) const person = {firstName: 'Mick', lastName: 'Jagger'};
+         * person.firstName // 'Mick'
+         * person['firstName'] // 'Mick' → Dynamic 하게 사용가능
+       * VALID KEYS : All keys are converted to strings
+         * 예) const years = {1999: 'GOOD', 2020: 'BAD'}; 
+           * years[1999] // 'GOOD'
+           * years["1999"] // 'GOOD'

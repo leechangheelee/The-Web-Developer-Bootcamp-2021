@@ -349,3 +349,9 @@ udemy 웹개발 강의 흡수
          * 예) const years = {1999: 'GOOD', 2020: 'BAD'}; 
            * years[1999] // 'GOOD'
            * years["1999"] // 'GOOD'
+     * Modifying Objects
+       * 예) const midterms = {danielle: 96, thomas: 78}
+         * (수정) midterms.thomas = 79
+           * midterms // {danielle: 96, thomas: 79}
+         * (추가) midterms.ezra = 'B+'; midterms["antonio"] = 'A-';
+           * midterms // {danielle: 'A', thomas: 'C+', ezra: 'B+', antonio: 'A-'}

@@ -336,3 +336,8 @@ udemy 웹개발 강의 흡수
        * 하지만 새 배열을 할당할 때는 에러 발생
      * Multi-Dimensional Arrays
        * We can store arrays inside other arrays!
+   * JavaScript Object Literals
+     * OBJECTS
+       * Objects are collections of properties.
+       * Properties are a key-value pair
+       * Rather than accessing data using an index, we use custom keys.

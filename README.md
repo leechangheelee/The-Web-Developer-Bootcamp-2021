@@ -355,3 +355,5 @@ udemy 웹개발 강의 흡수
            * midterms // {danielle: 96, thomas: 79}
          * (추가) midterms.ezra = 'B+'; midterms["antonio"] = 'A-';
            * midterms // {danielle: 'A', thomas: 'C+', ezra: 'B+', antonio: 'A-'}
+     * Nesting Arrays & Objects
+       * Array의 원소로 Object를 대입하기도 하고, Object의 요소로 Array를 대입하기도 함

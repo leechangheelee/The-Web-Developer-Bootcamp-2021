@@ -368,3 +368,11 @@ udemy 웹개발 강의 흡수
      * Intro to For Loops
        * Syntax
          * for ([initialExpression]; [condition]; [incrementExpression])
+     * Another Loop: The While Loop
+       * While loops continue running as long as the test condition is true.
+       * 예) 0~9 출력
+         * let num = 0;
+         * while (num < 10) {
+             console.log(num);
+             num++;
+           }

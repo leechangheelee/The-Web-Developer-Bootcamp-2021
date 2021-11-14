@@ -378,3 +378,7 @@ udemy 웹개발 강의 흡수
            }
      * The Break Keyword
        * For loop 이나 While loop 에서 특정 조건에서 멈출 때 break 키워드 사용
+     * FOR...OF Loop
+       * A nice and easy way of iterationg over arrays (or other iterable objects)
+       * Syntax
+         * for (variable of iterable) { statement }

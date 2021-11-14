@@ -382,3 +382,9 @@ udemy 웹개발 강의 흡수
        * A nice and easy way of iterationg over arrays (or other iterable objects)
        * Syntax
          * for (variable of iterable) { statement }
+     * FOR...IN Loop
+       * Object를 looping할 때 사용
+       * Syntax
+         * for (variable in object) { statement }
+         * varible에는 키값이 들어옴
+       * Object.values(object) 나 Object.keys(object) 를 사용하여 iterable로 변환 후 FOR...OF Loop 사용하기도 함

@@ -21,7 +21,34 @@
 // }
 // console.log("OK YOU WIN!");
 
-for(let i = 0; i < 1000; i++){
-    console.log(i);
-    if(i === 100) break;
+// for(let i = 0; i < 1000; i++){
+//     console.log(i);
+//     if(i === 100) break;
+// }
+
+let maximum = parseInt(prompt("Enter the maximum number!"));
+while (!maximum) {
+    maximum = parseInt(prompt("Enter a valid number!"));
+}
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+//console.log(targetNum);
+let attempts = 1;
+
+let guess = prompt("ener your first guess!");
+
+while(parseInt(guess) !== targetNum) {
+    if(guess === 'q') break;
+    attempts++;
+    if(guess > targetNum) {
+        guess = prompt("Too high! Enter a new guess:");
+    } else {
+        guess = prompt("Too low! Enter a new guess:");
+    }
+}
+if(guess === 'q'){
+    console.log("OK, YOU QUIT!");
+} else {
+    console.log("CONTRATS YOU WIN!")
+    console.log(`You got it! It took you ${attempts} guesses`);
 }

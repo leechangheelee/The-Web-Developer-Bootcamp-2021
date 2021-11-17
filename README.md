@@ -388,3 +388,9 @@ udemy 웹개발 강의 흡수
          * for (variable in object) { statement }
          * varible에는 키값이 들어옴
        * Object.values(object) 나 Object.keys(object) 를 사용하여 iterable로 변환 후 FOR...OF Loop 사용하기도 함
+   * JavaScript Functions
+     * Functions
+       * Reusable procedures
+       * Functions allow us to write reusable, modular code
+       * We define a "chunk" of code that we can then cxecute at a later point.
+       * We use them ALL THE TIME

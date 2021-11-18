@@ -394,3 +394,6 @@ udemy 웹개발 강의 흡수
        * Functions allow us to write reusable, modular code
        * We define a "chunk" of code that we can then cxecute at a later point.
        * We use them ALL THE TIME
+     * Function Scope
+       * SCOPE: Variable "visibility"
+       * The location where a variable is defined dictates where we have access to that variable

@@ -404,5 +404,5 @@ udemy 웹개발 강의 흡수
          const square = function (num) {
              return num * num;
          }
-         square(7);
+         square(7); //49
          ```

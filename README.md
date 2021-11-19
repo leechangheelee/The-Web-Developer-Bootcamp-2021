@@ -398,7 +398,7 @@ udemy 웹개발 강의 흡수
        * SCOPE: Variable "visibility"
        * The location where a variable is defined dictates where we have access to that variable
      * Function Expressions
-       * function을 variable에 담을 수 있음
+       * function을 variable에 담을 수 있음: function을 array에 넣거나 전달하거나 등등의 행위가 가능
        * 예)
          ```javascript
          const square = function (num) {

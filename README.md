@@ -462,3 +462,6 @@ udemy 웹개발 강의 흡수
                }
            }
            ```
+     * 'THIS' IN METHODS
+       * Use the keyword this to access other properties on the same object.
+       * The value of this depends on the invocation context of the function it is used in.

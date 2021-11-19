@@ -406,3 +406,22 @@ udemy 웹개발 강의 흡수
          }
          square(7); //49
          ```
+     * Higher Order Functions
+       * Functions that operate on/with other functions.
+       * They can:
+         * Accept other functions as arguments
+         * 예)
+           ```javascript
+           function callTwice(func) {
+               func();
+               func();
+           }
+           
+           function laugh() {
+               console.log("HAHAHA");
+           }
+           callTwice(laugh) //pass a function as an arg!
+           //"HAHAHA"
+           //"HAHAHA"
+           ```
+         * Return a function

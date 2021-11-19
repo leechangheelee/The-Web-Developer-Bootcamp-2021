@@ -425,3 +425,11 @@ udemy 웹개발 강의 흡수
            //"HAHAHA"
            ```
          * Return a function
+         * 예)
+           ```javascript
+           function makeBetweenFunc(min, max) {
+               return function(num){
+                   return num >= min && num <= max;
+               }
+           }
+           ```

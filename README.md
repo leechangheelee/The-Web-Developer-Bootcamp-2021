@@ -433,3 +433,32 @@ udemy 웹개발 강의 흡수
                }
            }
            ```
+     * METHODS
+       * We can add functions as properties on objects.
+       * We call them methods.
+       * 예)
+         ```javascript
+         const myMath = {
+             PI: 3.14159,
+             square: function(num) {
+                 return num * num;
+             },
+             cube: function(num) {
+                 return num ** 3;
+             }
+         }
+         ```
+       * SHORTHAND
+         * function 키워드 쓰지 않고 method 정의
+         * 예)
+           ```javascript
+           const myMath = {
+               PI: 3.14159,
+               square(num) {
+                   return num * num;
+               },
+               cube(num) {
+                   return num ** 3;
+               }
+           }
+           ```

@@ -489,3 +489,11 @@ udemy 웹개발 강의 흡수
              return num * 2;
          })
          ```
+     * ARROW FUNCTIONS
+       * "syntactically compact alternative" to a regular function expression
+       * 예)
+         ```javascript
+         const add = (x,y) => {
+             return x + y;
+         }
+         ```

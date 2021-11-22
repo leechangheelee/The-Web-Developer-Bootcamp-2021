@@ -31,9 +31,9 @@
 //     return x + y;
 // }
 
-const add = (x,y) => {
-    return x + y;
-}
+// const add = (x,y) => {
+//     return x + y;
+// }
 
 
 /* 파라미터 하나면 괄호 안감싸도 됨 */
@@ -42,6 +42,10 @@ const square = x => {
     return x * x;
 }
 
-const rollDie = () => {
-    return Math.floor(Math.random() * 6) + 1
-}
+// const rollDie = () => {
+//     return Math.floor(Math.random() * 6) + 1
+// }
+
+const rollDie = () => Math.floor(Math.random() * 6) + 1;
+
+const add = (a, b) => a + b;

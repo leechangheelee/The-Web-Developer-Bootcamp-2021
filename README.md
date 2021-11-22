@@ -465,3 +465,17 @@ udemy 웹개발 강의 흡수
      * 'THIS' IN METHODS
        * Use the keyword this to access other properties on the same object.
        * The value of this depends on the invocation context of the function it is used in.
+   * Callbacks & Array Methods
+     * The forEach Method
+       * Accepts a callback function.
+       * Calls the function once per element in the array.
+       * 예)
+         ```javascript
+         const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+         numbers.forEach(function(el) {
+             if(el % 2 === 0) {
+                 console.log(el);
+             }
+         });
+         ```

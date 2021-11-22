@@ -479,3 +479,13 @@ udemy 웹개발 강의 흡수
              }
          });
          ```
+     * The map Method
+       * Creates a new array with the results of calling a callback on every element in the array
+       * 예)
+         ```javascript
+         const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+         const doubles = numbers.map(function(num){
+             return num * 2;
+         })
+         ```

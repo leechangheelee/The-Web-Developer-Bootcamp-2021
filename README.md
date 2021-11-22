@@ -497,3 +497,20 @@ udemy 웹개발 강의 흡수
              return x + y;
          }
          ```
+       * IMPLICIT RETURN: 암시적 return
+         * All these functions do the same thing:
+         ```javascript
+         const isEven = function(num) { //regular function expression
+             return num % 2 === 0;
+         }
+         const isEven = (num) => { //arrow function with parens around param
+             return num % 2 === 0;
+         }
+         const isEven = num => { //no parens around param
+             return num % 2 === 0;
+         }
+         const isEven = num => ( //implicit return
+             num % 2 === 0
+         );
+         const isEven = num => num % 2 === 0; //one-liner implicit return
+         ```

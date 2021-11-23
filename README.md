@@ -514,3 +514,18 @@ udemy 웹개발 강의 흡수
          );
          const isEven = num => num % 2 === 0; //one-liner implicit return
          ```
+     * FILTER
+       * Creates a new array with all elements that pass the test implemented by the provided function.
+       * 예)
+         ```javascript
+         const nums = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+         
+         const odds = nums.filter(n => {
+             return n % 2 === 1; /our callback returns true or false
+             //if it returns true, n is added to the filtered array
+         })
+         //[9, 7, 5, 3, 1]
+         
+         const smallNums = nums.filter(n => n < 5);
+         //[4, 3, 2, 1]
+         ```

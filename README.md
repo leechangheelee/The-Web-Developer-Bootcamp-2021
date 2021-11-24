@@ -529,3 +529,13 @@ udemy 웹개발 강의 흡수
          const smallNums = nums.filter(n => n < 5);
          //[4, 3, 2, 1]
          ```
+     * Some & Every Methods
+       * EVERY: tests whether __all__ elements in the array pass the provided function. It returns a Boolean value.
+       * SOME: Similar to every, but returns true if ANY of the array elements pass the function
+       * 예)
+         ```javascript
+         const exams = [80, 98, 92, 78, 70, 90, 89, 84, 81, 77];
+
+         exams.every(score => score >= 75); //false
+         exams.some(score => score >= 75); //true
+         ```

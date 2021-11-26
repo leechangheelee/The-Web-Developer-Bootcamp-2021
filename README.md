@@ -539,3 +539,11 @@ udemy 웹개발 강의 흡수
          exams.every(score => score >= 75); //false
          exams.some(score => score >= 75); //true
          ```
+     * REDUCE
+       * Executes a reducer function on each element of the array, __resulting in a single value.__
+       * 예)
+         ```javascript
+         [3, 5, 7, 9, 11].reduce((accumulator, currentValue) => {
+             return accumulator + currentValue;
+         }); //35
+         ```

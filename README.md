@@ -572,3 +572,19 @@ udemy 웹개발 강의 흡수
            // Same as calling:
            // Math.max(9, 3, 2, 8)
            ```
+       * Spread with Array Literals
+         * Creates a new array using an existing array. Spreads the elements from one array into a new array.
+         * 예)
+           ```javascript
+           const nums1 = [1, 2, 3];
+           const nums2 = [4, 5, 6];
+           
+           [ ...nums1, ...nums2 ];
+           //[1, 2, 3, 4, 5, 6];
+           
+           [ 'a', 'b', ...nums2 ];
+           //["a", "b", 4, 5, 6]
+           
+           [ ...nums1, ...nums2, 7, 8, 9 ];
+           //[1, 2, 3, 4, 5, 6, 7, 8, 9]
+           ```

@@ -588,3 +588,20 @@ udemy 웹개발 강의 흡수
            [ ...nums1, ...nums2, 7, 8, 9 ];
            //[1, 2, 3, 4, 5, 6, 7, 8, 9]
            ```
+       * Spread with Objects
+         * Copies properties from one object into another object literal.
+         * 예)
+           ```javascript
+           const feline = { legs: 4, family: 'Felidae' };
+           const canine = { family: 'Caninae', furry: true };
+           
+           const dog = { ...canine, isPet: true };
+           //{family: "Caninae", furry: true, isPet: true}
+           
+           const lion = { ...feline, genus: 'Panthera' };
+           //{legs: 4, family: "Felidae", genus: "Panthera"}
+           
+           const catDog = { ...feline, ...canine };
+           //{legs: 4, family: "Caninae", furry: true}
+           //중복된 family 속성은 마지막 것으로 overwrite
+           ```

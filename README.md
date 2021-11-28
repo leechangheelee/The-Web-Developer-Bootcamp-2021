@@ -547,3 +547,28 @@ udemy 웹개발 강의 흡수
              return accumulator + currentValue;
          }); //35
          ```
+   * Newer JavaScript Features
+     * DEFAULT PARAMS
+       * function 호출시 특정 인자값은 값을 전달하지 않아도 기본값 세팅
+       * 예)
+         ```javascript
+         function multiply(a, b = 1) {
+             return a * b;
+         }
+         
+         multiply(4); //4
+         multiply(4, 5); //20
+         ```
+     * SPREAD
+       * Spread syntax allows an iterable such as an array to be __expanded__ in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) area expected.
+       * Spread in Function Calls
+         * Expands an iterable (array, string, etc.) into a list of arguments
+         * 예)
+           ```javascript
+           const nums = [9, 3, 2, 8];
+           Math.max(nums); //NaN
+           // Use Spread!
+           Math.max(...nums); //9
+           // Same as calling:
+           // Math.max(9, 3, 2, 8)
+           ```

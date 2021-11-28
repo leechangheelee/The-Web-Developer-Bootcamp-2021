@@ -547,3 +547,15 @@ udemy 웹개발 강의 흡수
              return accumulator + currentValue;
          }); //35
          ```
+   * Newer JavaScript Features
+     * DEFAULT PARAMS
+       * function 호출시 특정 인자값은 값을 전달하지 않아도 기본값 세팅
+       * 예)
+         ```javascript
+         function multiply(a, b = 1) {
+             return a * b;
+         }
+         
+         multiply(4); //4
+         multiply(4, 5); //20
+         ```

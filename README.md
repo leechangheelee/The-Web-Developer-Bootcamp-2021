@@ -669,3 +669,18 @@ udemy 웹개발 강의 흡수
            birthYear; //1930
            deathYear; //1978 (user에 died가 정의되어 있지 않으면 default로 설정한 'N/A'가 들어감)
            ```
+       * PARAM Destructuring
+         * 예)
+           ```javascript
+           const fullName = ({ first, last }) => {
+               return `${first} ${last}`
+           }
+           
+           const runner = {
+               first: "Eliud",
+               last: "Kipchoge",
+               country: "Kenya"
+           }
+           
+           fullName(runner); //"Eliud Kipchoge"
+           ```

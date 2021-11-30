@@ -640,13 +640,32 @@ udemy 웹개발 강의 흡수
          * Values from arrays
          * Properties from objects Into distinct variables.
        * ARRAY Destructuring
-       * 예)
-         ```javascript
-         const scores = [929321, 899341, 888336, 772739, 543671, 243567, 111934];
+         * 예)
+           ```javascript
+           const scores = [929321, 899341, 888336, 772739, 543671, 243567, 111934];
 
-         const [gold, silver, bronze, ...everyoneElse] = scores
-         gold; //929321
-         silver; //899341
-         bronze; //888336
-         everyoneElse; //[772739, 543671, 243567, 111934]
-         ```
+           const [gold, silver, bronze, ...everyoneElse] = scores
+           gold; //929321
+           silver; //899341
+           bronze; //888336
+           everyoneElse; //[772739, 543671, 243567, 111934]
+           ```
+       * OBJECT Destructuring
+         * 예)
+           ```javascript
+           const user = {
+               email: 'harvey@gmail.com',
+               password: 'sCoTt1948sMiTh',
+               firstName: 'Harvey',
+               lastName: 'Milk',
+               born: 1930,
+               died: 1978,
+               bio: 'Harvey Bernad Milk was an American politician and the first openly ...',
+               city: 'San Francisco',
+               state: 'California'
+           }
+           const { born: birthYear, died: deathYear = 'N/A' } = user;
+           
+           birthYear; //1930
+           deathYear; //1978 (user에 died가 정의되어 있지 않으면 default로 설정한 'N/A'가 들어감)
+           ```

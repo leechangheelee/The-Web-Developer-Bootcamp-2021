@@ -635,3 +635,18 @@ udemy 웹개발 강의 흡수
                console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`);
            }
            ```
+     * DESTRUCTURING
+       * A short, clean syntax to 'unpack':
+         * Values from arrays
+         * Properties from objects Into distinct variables.
+       * ARRAY Destructuring
+       * 예)
+         ```javascript
+         const scores = [929321, 899341, 888336, 772739, 543671, 243567, 111934];
+
+         const [gold, silver, bronze, ...everyoneElse] = scores
+         gold; //929321
+         silver; //899341
+         bronze; //888336
+         everyoneElse; //[772739, 543671, 243567, 111934]
+         ```

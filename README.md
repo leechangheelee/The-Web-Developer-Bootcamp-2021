@@ -605,3 +605,33 @@ udemy 웹개발 강의 흡수
            //{legs: 4, family: "Caninae", furry: true}
            //중복된 family 속성은 마지막 것으로 overwrite
            ```
+     * Rest Params
+       * THE ARGUMENTS OBJECT: 함수 호출시 넘겨받은 argument 값들을 머금고 있음
+         * Available inside every function.
+         * It's an __array-like__ object
+           * Has a lengh property
+           * Does not have array method like push/pop
+         * Contains all the arguments passed to the function
+         * Not available inside of arrow functions!
+         * 예)
+           ```javascript
+           function sumAll() {
+               let total = 0;
+               for (let i = 0; i < arguments.length; i++) {
+                   total += arguments[i];
+               }
+               return total;
+           }
+           sumAll(8, 4, 3, 2); //17
+           sumAll(2, 3); //5
+           ```
+       * REST PARAMS
+         * Collects all remaining arguments into an actual array
+         * 예)
+           ```javascript
+           function raceResults(gold, silver, ...everyoneElse) {
+               console.log(`GOLD MEDAL GOES TO: ${gold}`);
+               console.log(`SILVER MEDAL GOES TO: ${silver}`);
+               console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`);
+           }
+           ```

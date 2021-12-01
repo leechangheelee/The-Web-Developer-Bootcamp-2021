@@ -694,3 +694,18 @@ udemy 웹개발 강의 흡수
        * getElementById
        * getElementsByTagName
        * getElementsByClassName
+       * querySelector
+         * A newer, all-in-one method to select a single element.
+         * 예)
+           ```javascript
+           //Finds first h1 element:
+           document.querySelector('h1');
+           
+           //Finds first element with ID of red:
+           document.querySelector('#red');
+           
+           //Finds first element with class of big
+           document.querySelector('.big');
+           ```
+       * querySelectorAll
+         * Same idea, but returns __a collection__ of matching elements

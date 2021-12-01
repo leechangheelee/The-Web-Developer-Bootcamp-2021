@@ -690,3 +690,7 @@ udemy 웹개발 강의 흡수
      * It's just a bunch of objects that you can interact with via JS.
      * __DOCUMENT__
        * The document object is our entry point into the world of the DOM. It contains representations of all the content on a page, plus tons of useful method and properties
+     * SELECTING
+       * getElementById
+       * getElementsByTagName
+       * getElementsByClassName

@@ -684,3 +684,7 @@ udemy 웹개발 강의 흡수
            
            fullName(runner); //"Eliud Kipchoge"
            ```
+   * DOM (Document Object Model)
+     * The DOM is a JavaScript representation of a webpage.
+     * It's your JS "window" into the contents of a webpage
+     * It's just a bunch of objects that you can interact with via JS.

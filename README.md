@@ -709,3 +709,8 @@ udemy 웹개발 강의 흡수
            ```
        * querySelectorAll
          * Same idea, but returns __a collection__ of matching elements
+     * PROPERTIES & METHODS
+       * innerHTML, textContent, & innerText
+         * innerHTML : https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+         * textContent : https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+         * innerText : https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText

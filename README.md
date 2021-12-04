@@ -725,7 +725,7 @@ udemy 웹개발 강의 흡수
            const h1 = document.querySelector('h1');
            h1.style.color = 'red'; //html의 style 영역 값이 변경됨. <h1 style="color: red;">Silkie Chickens</h1>
            ```
-         * window.getComputedStyle
+         * window.getComputedStyle()
            * 다 계산되어 화면으로 보이는 상태의 속성값 확인
            * 예)
              ```javascript

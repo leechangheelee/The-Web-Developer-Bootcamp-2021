@@ -719,3 +719,16 @@ udemy 웹개발 강의 흡수
            * 예) input.getAttribute('type')
          * setAttribute()
            * 예) input.setAttribute('type', 'color')
+       * Changing Styles
+         * 예)
+           ```javascript
+           const h1 = document.querySelector('h1');
+           h1.style.color = 'red'; //html의 style 영역 값이 변경됨. <h1 style="color: red;">Silkie Chickens</h1>
+           ```
+         * window.getComputedStyle
+           * 다 계산되어 화면으로 보이는 상태의 속성값 확인
+           * 예)
+             ```javascript
+             const h1 = document.querySelector('h1');
+             window.getComputedStyle(h1).color; //브라우저에서 보이는 상태의 색상값 반환
+             ```

@@ -766,4 +766,12 @@ udemy 웹개발 강의 흡수
            ```
          * 참조) Node와 Element 차이  
            Node는 태그 노드와 텍스트 노드 전체를 가리키고, Element는 텍스트 노드를 제외하고, 흔히 생각하는 태그(<a>같은)만 가리킵니다. 따라서 태그만 검색하고 싶을 때는 Element가 붙은 메소드를 선택해야합니다.  
-           https://www.zerocho.com/category/JavaScript/post/573b4165a54b5e8427432948
+           https://www.zerocho.com/category/JavaScript/post/573b4165a54b5e8427432948  
+       * Append & AppendChild
+         * 요소 추가
+         * Append : https://developer.mozilla.org/en-US/docs/Web/API/Element/append
+         * AppendChild : https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+         * insertAdjacentElement : https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement
+       * removeChild & remove
+         * removeChild : https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+         * remove : https://developer.mozilla.org/en-US/docs/Web/API/Element/remove

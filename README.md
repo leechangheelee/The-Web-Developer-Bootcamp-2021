@@ -753,3 +753,14 @@ udemy 웹개발 강의 흡수
            h2.classList.toggle('purple'); //'purple' 적용되어있으면 해제, 해제되어있으면 적용
            h2.classList.remove('border'); //'border' 해제
            ```
+       * Traversing Parent/Child/Sibling
+         * 예)
+           ```javascript
+           const squareImg = document.querySelector('.square')
+           
+           squareImg.parentElement;
+           squareImg.nextElementSibling;
+           squareImg.previousElementSibling;
+           squareImg.children;
+           //squareImg.nextSibling 은 다음 node (개행 text) 를 지칭, nextElementSibling 은 다음 html 요소 가리킴
+           ```

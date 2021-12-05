@@ -764,3 +764,6 @@ udemy 웹개발 강의 흡수
            squareImg.children;
            //squareImg.nextSibling 은 다음 node (개행 text) 를 지칭, nextElementSibling 은 다음 html 요소 가리킴
            ```
+         * 참조) Node와 Element 차이  
+           Node는 태그 노드와 텍스트 노드 전체를 가리키고, Element는 텍스트 노드를 제외하고, 흔히 생각하는 태그(<a>같은)만 가리킵니다. 따라서 태그만 검색하고 싶을 때는 Element가 붙은 메소드를 선택해야합니다.  
+           https://www.zerocho.com/category/JavaScript/post/573b4165a54b5e8427432948

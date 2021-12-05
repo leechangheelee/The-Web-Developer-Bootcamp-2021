@@ -734,7 +734,18 @@ udemy 웹개발 강의 흡수
              ```
        * ClassList
          * CSS에 class 선언 후 해당 class들을 속성으로 추가 적용
-         * 예)
+         * 예)  
+           CSS
+           ```css
+           .purple {
+               color: #7b07ff;
+           }
+
+           .border {
+               border: 3px solid greenyellow;
+           }
+           ```
+           JavaScript
            ```javascript
            h2.classList.add('purple'); //classList에 'purple' 클래스 적용
            h2.classList.add('border'); //classList에 추가적으로 'border' 클래스 적용

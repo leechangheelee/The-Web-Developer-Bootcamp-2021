@@ -732,3 +732,13 @@ udemy 웹개발 강의 흡수
              const h1 = document.querySelector('h1');
              window.getComputedStyle(h1).color; //브라우저에서 보이는 상태의 색상값 반환
              ```
+       * ClassList
+         * CSS에 class 선언 후 해당 class들을 속성으로 추가 적용
+         * 예)
+           ```javascript
+           h2.classList.add('purple'); //classList에 'purple' 클래스 적용
+           h2.classList.add('border'); //classList에 추가적으로 'border' 클래스 적용
+           
+           h2.classList.toggle('purple'); //'purple' 적용되어있으면 해제, 해제되어있으면 적용
+           h2.classList.remove('border'); //'border' 해제
+           ```

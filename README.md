@@ -777,3 +777,18 @@ udemy 웹개발 강의 흡수
          * remove : https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
    * EVENTS
      * Responding to user inputs and actions
+     * The Onclick Property : 요소의 클릭시 실행할 action을 정의
+       * 예)  
+         HTML
+         ```html
+         <button id="v2">Click Me (2nd version)</button>
+         ```  
+         JavaScript
+         ```javascript
+         const btn = document.querySelector('#v2');
+
+         btn.onclick = function() { //미리 정의한 function을 대입해도 됨. execution은 아님
+             console.log('YOU CLICKED ME!');
+             console.log('I HOPE IT WORKED!!!');
+         }
+         ```

@@ -775,3 +775,5 @@ udemy 웹개발 강의 흡수
        * removeChild & remove
          * removeChild : https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
          * remove : https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
+   * EVENTS
+     * Responding to user inputs and actions

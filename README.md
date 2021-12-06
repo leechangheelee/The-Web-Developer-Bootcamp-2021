@@ -792,7 +792,7 @@ udemy 웹개발 강의 흡수
              console.log('I HOPE IT WORKED!!!');
          }
          ```
-     * addEventListner : 요소의 event ('click' 등) 발생시 실행할 action 들을 정의
+     * addEventListner : 요소에 지정한 event ('click' 등) 발생시 실행할 action 들을 정의
        * 예)
          ```javascript
          function twist() {

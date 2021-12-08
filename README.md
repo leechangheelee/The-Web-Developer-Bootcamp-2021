@@ -809,3 +809,32 @@ udemy 웹개발 강의 흡수
          tasButton.addEventListener('click', shout);
          //tas 버튼 클릭시 twist, shout 모두 실행됨
          ```
+     * Events & The Keyword This
+       * this 키워드를 사용하여 실행 컨텍스트의 객체 이벤트 처리가 가능
+       * 예)
+       ```javascript
+       const makeRandColor = () => {
+           const r = Math.floor(Math.random() * 256);
+           const g = Math.floor(Math.random() * 256);
+           const b = Math.floor(Math.random() * 256);
+           return `rgb(${r}, ${g}, ${b})`;
+       }
+
+       const buttons = document.querySelectorAll('button');
+
+       for(let button of buttons){
+           button.addEventListener('click', colorize)
+       }
+
+       const h1s = document.querySelectorAll('h1');
+
+       for(let h1 of h1s){
+           h1.addEventListener('click', colorize) 
+       }
+
+       function colorize() {
+           console.log(this);
+           this.style.backgroundColor = makeRandColor();
+           this.style.color = makeRandColor();
+       }
+       ```

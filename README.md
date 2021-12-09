@@ -838,3 +838,29 @@ udemy 웹개발 강의 흡수
            this.style.color = makeRandColor();
        }
        ```
+     * Keyboard Events & Event Objects
+       * 키보드의 키 누름, 뗌 관련 이벤트 존재
+       * 콜백 function 에 인자를 넘기면 해당 인자에서 이벤트의 속성 파악이 가능
+       * 예)
+       ```javascript
+       // GLOBAL하게 EVENT 처리
+       window.addEventListener('keydown', function (e) { // 콜백 function에서 이벤트 속성 확인 가능
+           //console.log(e.code);
+           switch(e.code){
+               case 'ArrowUp':
+                   console.log("UP!");
+                   break;
+               case 'ArrowDown':
+                   console.log("DOWN!");
+                   break;
+               case 'ArrowLeft':
+                   console.log("LEFT!");
+                   break;
+               case 'ArrowRight':
+                   console.log("RIGHT!");
+                   break;
+               default:
+                   console.log("IGNORED!");
+           }
+       });
+       ```

@@ -864,3 +864,18 @@ udemy 웹개발 강의 흡수
            }
        });
        ```
+     * Form Events & PreventDefault
+       * preventDefault : a 태그를 눌렀을때도 링크로 이동하지 않게 하거나 form 안에 submit 버튼 눌러도 페이지 안넘어가게 할 때 사용
+       * The preventDefault() method of the Event interface tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be.
+         * https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+       * 예)
+         ```javascript
+         form.addEventListener("submit", function(e) {
+             e.preventDefault(); // html form 태그에 정의된 페이지로 넘어가지 않도록 함
+             const catName = input.value;
+             const newLI = document.createElement('LI');
+             newLI.innerText = catName;
+             list.append(newLI);
+             input.value="";
+         });
+         ```

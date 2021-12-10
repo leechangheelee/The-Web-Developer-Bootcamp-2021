@@ -1,7 +1,12 @@
 const form = document.querySelector('#shelterForm');
+const input = document.querySelector('#catName');
+const list = document.querySelector('#cats');
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
-    console.log("SUBMITTED THE FORM!");
-    console.log(e);
-})
+    const catName = input.value;
+    const newLI = document.createElement('LI');
+    newLI.innerText = catName;
+    list.append(newLI);
+    input.value="";
+});

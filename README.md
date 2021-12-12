@@ -879,3 +879,5 @@ udemy 웹개발 강의 흡수
              input.value="";
          });
          ```
+     * Input & Change Events
+       * addEventListener 에 type을 input으로 지정시 input 요소의 값 변경때 마다 이벤트 처리가능

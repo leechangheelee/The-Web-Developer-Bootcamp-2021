@@ -891,3 +891,13 @@ udemy 웹개발 강의 흡수
              e.stopPropagation();
          });
          ```
+     * Event Delegation
+       * 하위요소의 변동에 대한 이벤트 처리시 리스너를 상위요소에 설정하여 처리
+       * 예)
+         ```javascript
+         const tweetsContainer = document.querySelector('#tweets'); // ul
+          
+         tweetsContainer.addEventListener('click', function (e) { // ul 아래 li들 처리
+             e.target.nodeName === 'LI' && e.target.remove();
+         });
+         ```

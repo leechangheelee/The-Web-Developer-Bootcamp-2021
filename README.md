@@ -881,3 +881,13 @@ udemy 웹개발 강의 흡수
          ```
      * Input & Change Events
        * addEventListener 에 type을 input으로 지정시 input 요소의 값 변경때 마다 이벤트 처리가능
+     * Event Bubbling
+       * 상위요소에 동일한 event가 정의되어 있을 경우 event 발생시 상위요소로 전파됨
+       * 상위요소로 event 전파를 방지하기 위해 stopPropagation 호출
+       * 예)
+         ```javascript
+         button.addEventListener('click', function(e) {
+             container.style.backgroundColor = makeRandColor();
+             e.stopPropagation();
+         });
+         ```

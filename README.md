@@ -909,3 +909,11 @@ udemy 웹개발 강의 흡수
          * When a script calls a function the interpreter adds it to the call stack and then starts carrying out the function.
          * Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
          * When the current functions is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.
+     * WebAPIs & Single Threaded
+       * JS IS SINGLE THREADED
+         * At any given point in time, that single JS thread is running at most one line of JS code.
+       * 하지만 CALLBACK (예. setTimeout) 함수와 같이 workaround 가 존재
+         * THE BROWSER DOES THE WORK! (C++로 개발됨)
+         * Browsers come with Web APIs that are able to handle certain tasks in the background (like making requests or setTimeout)
+         * The JS call stack recognizes these Web API functions and passes them off to the browser to take care of
+         * Once the browser finishes those tasks, they return and are pushed onto the stack as a callback.

@@ -919,3 +919,4 @@ udemy 웹개발 강의 흡수
          * Once the browser finishes those tasks, they return and are pushed onto the stack as a callback.
      * PROMISES
        * A Promise is an object representing the eventual completion or failure of an asynchronous operation
+       * A promise is a returned object to which you attach callbacks, instead of passing callbacks into a function

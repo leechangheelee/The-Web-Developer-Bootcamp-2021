@@ -917,3 +917,5 @@ udemy 웹개발 강의 흡수
          * Browsers come with Web APIs that are able to handle certain tasks in the background (like making requests or setTimeout)
          * The JS call stack recognizes these Web API functions and passes them off to the browser to take care of
          * Once the browser finishes those tasks, they return and are pushed onto the stack as a callback.
+     * PROMISES
+       * A Promise is an object representing the eventual completion or failure of an asynchronous operation

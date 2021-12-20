@@ -959,3 +959,19 @@ udemy 웹개발 강의 흡수
                return "ALL DONE!"
            }
            ```
+       * Handling Errors In Async Functions
+         * try catch 문으로 처리
+         * 예)
+           ```javascript
+           async function makeTwoRequests() {
+               try {
+                   let data1 = await fakeRequest('/page1');
+                   console.log(data1);
+                   let data2 = await fakeRequest('/page2');
+                   console.log(data2);
+               } catch (e) {
+                   console.log("CAUGHT AN ERROR!");
+                   console.log("err is:", e);
+               }
+           }
+           ```

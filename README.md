@@ -920,3 +920,26 @@ udemy 웹개발 강의 흡수
      * PROMISES
        * A Promise is an object representing the eventual completion or failure of an asynchronous operation
        * A promise is a returned object to which you attach callbacks, instead of passing callbacks into a function
+     * ASYNC FUNCTIONS
+       * A newer and cleaner syntax for working with async code
+       * Syntax "makeup" for promises
+       * 2 PIECES
+         * ASYNC
+         * AWAIT
+       * The async keyword
+         * Async functions always return a promise.
+         * If the function returns a value, the promise will be resolve with the value
+         * If the function throws an exception, the promise will be rejected
+         * 예)
+           ```javascript
+           async function hello() {
+               return 'Hey guy!';
+           }
+           hello();
+           // Promise {<resolved>: "Hey guy!"}
+           async function uhOh() {
+               throw new Error('oh no!');
+           }
+           uhOh();
+           // Promise {<rejected>: Error: oh no!}
+           ```

@@ -943,3 +943,19 @@ udemy 웹개발 강의 흡수
            uhOh();
            // Promise {<rejected>: Error: oh no!}
            ```
+       * The await keyword
+         * We can only use the await keyword inside of functions declared with async.
+         * await will pause the execution of the function, __waiting for a promise to be resolved__
+         * 예)
+           ```javascript
+           async function rainbow() {
+               await delayedColorChange('red', 1000);
+               await delayedColorChange('orange', 1000);
+               await delayedColorChange('yellow', 1000);
+               await delayedColorChange('green', 1000);
+               await delayedColorChange('blue', 1000);
+               await delayedColorChange('indigo', 1000);
+               await delayedColorChange('violet', 1000);
+               return "ALL DONE!"
+           }
+           ```

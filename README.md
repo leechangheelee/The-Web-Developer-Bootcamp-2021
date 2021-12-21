@@ -984,24 +984,40 @@ udemy 웹개발 강의 흡수
      * JSON
        * Java Script Object Notation
        * 참고) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
-   * XMLHttpRequest
-     * The "original" way of sending requests via JS.
-     * Does not support promises, so ... lots of callbacks.
-     * 예)
-       ```javascript
-       const req = new XMLHttpRequest();
+     * XMLHttpRequest
+       * The "original" way of sending requests via JS.
+       * Does not support promises, so ... lots of callbacks.
+       * 예)
+         ```javascript
+         const req = new XMLHttpRequest();
 
-       req.onload = function() {
-           console.log("ALL DONE WITH REQUEST!!!");
-           const data = JSON.parse(this.responseText);
-           console.log(data.ticker.price);
-       }
+         req.onload = function() {
+             console.log("ALL DONE WITH REQUEST!!!");
+             const data = JSON.parse(this.responseText);
+             console.log(data.ticker.price);
+         }
 
-       req.onerror = function() {
-           console.log("ERROR!");
-           console.log(this);
-       }
+         req.onerror = function() {
+             console.log("ERROR!");
+             console.log(this);
+         }
 
-       req.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd');
-       req.send();
-       ```
+         req.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd');
+         req.send();
+         ```
+     * Fetch API
+       * The newer way of making requests via JS
+       * Supports promises
+       * Not supported in Internet Explorer
+       * 예)
+         ```javascript
+         const fetchBitcoinPrice = async () => {
+             try {
+                 const res = await fetch('https://adpi.cryptonator.com/api/ticker/btc-usd');
+                 const data = await res.json();
+                 console.log(data.ticker.price);
+             } catch (e) {
+                 console.log("SOMETHING WENT WRONG!!!", e);
+             }
+         }
+         ```

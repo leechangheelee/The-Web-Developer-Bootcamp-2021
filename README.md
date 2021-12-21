@@ -977,10 +977,10 @@ udemy 웹개발 강의 흡수
            ```
    * AJAX and API's
      * AJAX
-       * ASYNCHRONOUS
-       * JAVASCRIPT
-       * AND
-       * XML
+       * ASYNCHRONOUS JAVASCRIPT AND XML (요즘은 주로 JSON 씀)
        * 참고) https://en.wikipedia.org/wiki/Ajax_(programming)
      * API
        * 참고) https://en.wikipedia.org/wiki/Web_API
+     * JSON
+       * Java Script Object Notation
+       * 참고) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON

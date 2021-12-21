@@ -1021,3 +1021,17 @@ udemy 웹개발 강의 흡수
              }
          }
          ```
+     * AXIOS
+       * A LIBRARY FOR MAKING HTTP REQUESTS
+       * 참고) https://github.com/axios/axios
+       * 예)
+         ```javascript
+         const fetchBitcoinPrice = async () => {
+             try {
+                 const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd');
+                 console.log(res.data.ticker.price);
+             } catch (e) {
+                 console.log("ERROR!", e);
+             }
+         }
+         ```

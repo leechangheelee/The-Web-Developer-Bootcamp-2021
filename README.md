@@ -975,3 +975,12 @@ udemy 웹개발 강의 흡수
                }
            }
            ```
+   * AJAX and API's
+     * AJAX
+       * ASYNCHRONOUS
+       * JAVASCRIPT
+       * AND
+       * XML
+       * 참고) https://en.wikipedia.org/wiki/Ajax_(programming)
+     * API
+       * 참고) https://en.wikipedia.org/wiki/Web_API

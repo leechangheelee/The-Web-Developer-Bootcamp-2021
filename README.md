@@ -1035,3 +1035,7 @@ udemy 웹개발 강의 흡수
              }
          }
          ```
+   * Prototypes, Classes, & OOP
+     * Prototypes
+       * Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+       * 참조) https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes

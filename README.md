@@ -1039,3 +1039,6 @@ udemy 웹개발 강의 흡수
      * Prototypes
        * Prototypes are the mechanism by which JavaScript objects inherit features from one another.
        * 참조) https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+     * JavaScript Classes
+       * 생성자는 new 키워드 사용시 자동 호출됨
+       * 클래스 내부에 정의된 메서드는 prototype에 추가되어 다른 인스턴스들과 공통으로 사용

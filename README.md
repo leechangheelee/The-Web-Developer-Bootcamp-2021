@@ -1042,3 +1042,6 @@ udemy 웹개발 강의 흡수
      * JavaScript Classes
        * 생성자는 new 키워드 사용시 자동 호출됨
        * 클래스 내부에 정의된 메서드는 prototype에 추가되어 다른 인스턴스들과 공통으로 사용
+       * Extends and Super Keywords
+         * Extends 는 클래스 상속시 사용
+         * Super 는 하위클래스에서 상위클래스 참조 혹은 생성자 호출시 사용

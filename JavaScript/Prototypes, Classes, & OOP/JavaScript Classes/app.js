@@ -51,13 +51,21 @@ class Color {
         this.b = b;
         this.name = name;
     }
-    greet() {
-        return `HELLO FROM ${this.name}!`;
+    innerRGB() {
+        const {r,g,b} = this;
+        return `${r}, ${g}, ${b}`;
     }
     rgb() {
+        return `rgb(${this.innerRGB()})`;
+    }
+    rgba(a=1.0) {
+        return `rgb(${this.innerRGB()}, ${a})`;
+    }
+    hex() {
         const {r,g,b} = this;
-        return `rgb(${r}, ${g}, ${b})`;
+        return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
     }
 }
 
-const c1 = new Color(255, 67, 89, 'tomato');
+const red = new Color(255, 67, 89, 'tomato');
+const white = new Color(255, 255, 255, 'white');

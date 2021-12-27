@@ -1057,3 +1057,6 @@ udemy 웹개발 강의 흡수
        * 예) man ls
      * flags : 매뉴얼에 설명된 추가기능 실행
        * 예) ls -l
+   * The Touch Command
+     * (대표적으로) 새 파일 생성
+       * 예) touch index.html app.css app.js

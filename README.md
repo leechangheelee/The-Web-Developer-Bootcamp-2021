@@ -1060,3 +1060,9 @@ udemy 웹개발 강의 흡수
    * The Touch Command
      * (대표적으로) 새 파일 생성
        * 예) touch index.html app.css app.js
+   * Removing Files & Folders
+     * rm : 파일삭제
+       * 예) rm app.js
+     * rm -rm : 파일삭제 및 폴더(하위자료 포함) 삭제
+       * r = recursive, f = force
+       * 예) rm -rf Dogs

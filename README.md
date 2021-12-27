@@ -1045,3 +1045,15 @@ udemy 웹개발 강의 흡수
        * Extends and Super Keywords
          * Extends 는 클래스 상속시 사용
          * Super 는 하위클래스에서 상위클래스 참조 혹은 생성자 호출시 사용
+
+## **Mastering The Terminal**
+   * LS & PWD
+     * ls : list
+     * pwd : print working directory
+   * Changing Directories : cd
+   * Making Directories : mkdir
+   * Man Pages & Flags
+     * man : 매뉴얼
+       * 예) man ls
+     * flags : 매뉴얼에 설명된 추가기능 실행
+       * 예) ls -l

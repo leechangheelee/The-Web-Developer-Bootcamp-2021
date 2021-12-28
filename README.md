@@ -1066,3 +1066,8 @@ udemy 웹개발 강의 흡수
      * rm -rm : 파일삭제 및 폴더(하위자료 포함) 삭제
        * r = recursive, f = force
        * 예) rm -rf Dogs
+
+## **Node**
+   * A JAVASCRIPT RUNTIME
+     * Node is a JavaScript runtime that excutes code __outside of the browser__.
+     * We can use the same JavaScript syntax we know and love to write __server-side code__, instead of relying on other languages like Python or Ruby.

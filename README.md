@@ -1071,6 +1071,13 @@ udemy 웹개발 강의 흡수
    * A JAVASCRIPT RUNTIME
      * Node is a JavaScript runtime that excutes code __outside of the browser__.
      * We can use the same JavaScript syntax we know and love to write __server-side code__, instead of relying on other languages like Python or Ruby.
+   * NODE JS VS CLIENT-SIDE JS
+     * NOT INCLUDED IN NODE
+       * Because Node does not run in a browser, we don't have access to all the browser "stuff".
+       * The window, document, and DOM API's are not a thing in Node.
+     * NEW STUFF IN NODE!
+       * Node comes with a bunch of built-in modules that don't exist in the browser.
+       * These modules help us do things like interact with the operating system and files/folders.
    * The Node REPL
      * node.js에서 REPL(Read, Evaluate, Print, Loop)은 node.js의 실행 콘솔을 의미
      * node라는 명령어를 통해서 REPL로 진입할 수 있음

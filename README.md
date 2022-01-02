@@ -1081,3 +1081,8 @@ udemy 웹개발 강의 흡수
    * The Node REPL
      * node.js에서 REPL(Read, Evaluate, Print, Loop)은 node.js의 실행 콘솔을 의미
      * node라는 명령어를 통해서 REPL로 진입할 수 있음
+   * Process & Argv
+     * The process object is a global that provides information about, and control over, the current Node.js process.
+       * 참조) https://nodejs.org/docs/latest-v14.x/api/process.html#process_process
+     * The process.argv property returns an array containing the command-line arguments passed when the Node.js process was launched.
+       * 참조) https://nodejs.org/docs/latest-v14.x/api/process.html#process_process_argv
